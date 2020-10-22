@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+ float findsqrt(float num)
+{
+  return sqrt(num);
+}
+int main()
+{
+int num;
+float n;
+printf("\n===========xoxoxoxox============\n");
+printf("\nInput any number for square root :");
+scanf("%d",&num);
+n = sqrt(num);
+printf("\nThe square root of %d is : %.2f\n",num,n);
+printf("\n\n===========xoxoxoxox============");
+getch();
+return 0;
+}
